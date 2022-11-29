@@ -1,0 +1,98 @@
+* {
+    font-family: Cambria;
+}
+
+body {
+    font-family: "Cambria", Cambria;
+    background: #97CECC;
+    color: #000;
+}
+
+/* Header styles */
+table {
+	color:white;
+	text-align:center;
+	border-collapse:collapse;
+	font-size:14pt;
+	width:100%;
+	margin:0px;
+}
+a {
+	color:white;
+	text-decoration:none;
+}
+
+tr {
+    line-height: 38px;
+}
+
+td span {
+	background-color:#F98F45;
+}
+
+
+/* Login and sign up styles */
+.main {
+    display: flex;
+    justify-content: center;
+    top: 20%;
+}
+
+.auth {
+    display: inline-block;
+    padding: 5vh 3vw;
+    background-color: #f6f8fa;
+    border-color: #989b9c;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 9px;
+}
+
+    #login {
+        float: left;
+        margin-right: min(5vw, 50px);
+        
+    }
+
+    #signup {
+        float: right;
+        margin-left: min(5vw, 50px);
+    }
+
+.title {
+    display: block;
+    font-size: x-large;
+    text-align: center;
+    padding-bottom: 2vh;
+}
+
+.label {
+    display: block;
+    font-size: medium;
+    padding: 1vh 0;
+}
+
+.authButton {
+    display: block;
+    width: 100%;
+    margin-top: 10%;
+    border-radius: 90px;
+    font-size: 1.01em;
+}
+
+    .blue {
+        background-color: #0FCECB;
+    }
+
+    .orange {
+        background-color: #F98F45;
+    }
+
+#password {
+    margin-top: 5vh;
+    display: block;
+    width: 100%;
+    color: #0f72ce;
+    text-align: center;
+    text-decoration: underline;
+}

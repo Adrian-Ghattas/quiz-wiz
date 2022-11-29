@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Quiz-Wiz Homepage</title>
+<style>
+table {
+	color:white;
+	text-align:center;
+	border-collapse:collapse;
+	font-size:14pt;
+	font-family:cambria;
+	width:100%;
+	margin:0px;
+}
+a {
+	color:white;
+	text-decoration:none;
+}
+td span {
+	background-color:#F98F45;
+}
+</style>
+</head>
+
+<body>
+<table>
+  <colgroup>
+	<col style="background-color: #12908E" span="4"/>
+  </colgroup>
+  <tr>
+	<td style="text-align: left"><a href="index.html"><img src="/mockups/logo.jpg" style="width:40px;height:40px"></a></td>
+	<td></td>
+	<td></td>
+	<td style="text-align: right;"><a href="login.html"><span>Login|Signup</span></a></td>
+  </tr>
+  <tr>
+	<td colspan="4" style="font-size:200%">      Wake up determined; go to bed satisfied     </td>
+  </tr>
+  <tr>
+	<td><a href="index.html">Home</a></td>
+	<td><a href"product.html">Our Product</a></td>
+	<td><a href="AboutPage.html">About Us</a></td>
+	<td><a href="FAQ.html">FAQ</a></td>
+  </tr>
+</table>
+</body>
+</html>

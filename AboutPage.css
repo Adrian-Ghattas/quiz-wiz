@@ -1,0 +1,58 @@
+h1{text-align: center;
+
+}
+p{
+    width: 300px; 
+    background-color: #97CECC; 
+    position: relative; 
+    left: 40%;
+    padding: 5px;
+} 
+
+.hover{
+	padding: 20px;
+}
+
+#contact {
+    background-color: #F98F45;
+}
+
+h2{ text-align: center;
+}
+
+h3{text-align:center;
+
+}
+
+table {
+	color:white;
+	text-align:center;
+	border-collapse:collapse;
+	font-size:14pt;
+	width:100%;
+	margin:0px;
+}
+a {
+	color:white;
+	text-decoration:none;
+}
+td span {
+	background-color:#F98F45;
+}
+body {
+    font-family: "Cambria", Cambria;
+    background: #97CECC;
+    color: #000;
+}
+
+#logo {
+	max-width: 30px;
+}
+.search-wrapper{ display: flex;
+	flex-direction: column;
+	gap: .25rem;
+}
+
+input{
+	font-size: 1rem ;
+}

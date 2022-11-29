@@ -1,0 +1,170 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Quiz-Wiz Homepage</title>
+
+<style>
+
+table {
+
+	color:white;
+
+	text-align:center;
+
+	border-collapse:collapse;
+
+	font-size:14pt;
+
+	font-family: cambria;
+
+	width:100%;
+
+	margin:0px;
+
+}
+
+a {
+
+	color:white;
+
+	text-decoration:none;
+
+}
+
+td span {
+
+	background-color:#F98F45;
+
+}
+
+.center {
+
+    margin: auto;
+
+    width:40%;
+
+    padding: 20px;
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.hideform {
+
+    display: none;
+
+}
+
+body {
+
+    font-family: "Cambria", Cambria;
+
+    background: #97CECC;
+
+    color: #000;
+
+}
+
+</style>
+
+</head>
+
+
+
+<body>
+
+<table>
+
+  <colgroup>
+
+    <col style="background-color: #16594A" span="4"/>
+
+    </colgroup>
+
+    <tr>
+
+    <td style="text-align: left"><a href="index.html"><img src="logo.png" style="width:100px;height:100px;"></a></td>
+
+    <td colspan="2" style="font-size: 200%; font-weight: bold"> Quiz-Wiz </td>
+
+    <td style="text-align: right;"><a href="login.html"><span>Login|Signup</span></a></td>
+
+    </tr>
+
+    <tr>
+
+    <td colspan="4" style="font-size:125%;color:black;padding-bottom:20px;"> <i> <q>Wake up determined, go to bed satisfied. </q> </i> </td>
+
+    </tr>
+
+    <tr>
+
+    <td><a href="index.html">Home</a></td>
+
+    <td><a href="product.html">Our Product</a></td>
+
+    <td><a href="AboutPage.html">About Us</a></td>
+
+    <td><a href="FAQ.html">FAQ</a></td>
+
+    </tr>
+
+</table>
+
+<br>
+
+<br>
+
+<label for="copypastetext">Insert the text you'd like turned into a quiz:</label>
+
+<br>
+
+<textarea id="copypastetext" name="copypastetext" rows="10" cols="75"></textarea>
+
+<br>
+
+<div class="center hideform">
+
+    <button id="close" style="float: right;">X</button>
+
+    <p style="text-align:center">Quiz Wiz is still in development! Check back at a later date</p>
+
+</div>
+
+<button title="Submit your text" id="show">Submit</button>
+
+<script>
+
+$('#show').on('click', function () {
+
+    $('.center').show();
+
+    $(this).hide();
+
+})
+
+
+
+$('#close').on('click', function () {
+
+    $('.center').hide();
+
+    $('#show').show();
+
+})
+
+</script>
+
+ 
+
+</body>
+
+</html>
+
